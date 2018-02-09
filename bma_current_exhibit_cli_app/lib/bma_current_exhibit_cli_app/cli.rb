@@ -16,7 +16,8 @@
   end
   #gives user the option to get more info about each exhibit, go back to menu, or exit
   def menu
-    puts "Enter the number of the exhibit to learn more about it. If you want to see the list again, enter 'list'. If you want to exit, type 'exit'." 
+    puts "Enter the number of the exhibit to learn more about it. If you want to see the list again, enter 'list'.
+    If you want to exit, type 'exit'."
     input = gets.strip
       if input == "1"
         puts " Cut off his ear"
@@ -32,5 +33,5 @@
           exit
         end
       end
-           
+
  end
