@@ -21,8 +21,10 @@
     input = gets.strip
       if input == "1"
         puts " Cut off his ear"
+        menu
       elsif input == "2"
           puts "swishy paint man"
+          menu
         elsif input == "3"
           puts "15 minutes of fame"
         elsif input == "list"
