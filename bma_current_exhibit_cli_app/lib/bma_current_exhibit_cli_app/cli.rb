@@ -27,6 +27,7 @@
           menu
         elsif input == "3"
           puts "15 minutes of fame"
+          menu
         elsif input == "list"
           list_exhibits
           menu
